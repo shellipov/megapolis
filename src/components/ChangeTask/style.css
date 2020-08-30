@@ -1,0 +1,79 @@
+.changeButton{
+  margin-left: 22px;
+  background-image: url("./images/change.png");
+  background-size: 100%;
+  width: 22px;
+  height: 22px;
+  border: 0px;
+  }
+
+  .taskName{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .form{
+    width: 462px;
+    height: 182px; 
+    border: 1px solid #F2F2F2;
+    background: white;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+  }
+  
+  .head{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+  
+  }
+  
+  .input{
+  position: absolute;
+  width: 398px;
+  height: 40px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  border: 0px;
+  margin-top: 10px;
+  margin-left: 32px;
+  }
+  .buttonContainer{
+    margin-top: 80px;
+
+  }
+  
+  .button{
+    width:148px;
+    height: 36px; 
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #39B54A;
+    margin-top: 140px;
+    margin-left: 282px;
+    }
+  
+  .error{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF0000;
+  margin-top: 60px;
+  margin-left: 32px;
+  height: 10px;
+  }
